@@ -26,14 +26,12 @@ int mod=1e9+7;
 
 int32_t main() 
 {
-	#ifndef ONLINE_JUDGE
-		freopen("input.txt", "r", stdin);
-		freopen("output.txt", "w", stdout);
-	#endif
+
 	fastIO;
 	int t,n,i,a,k,q,x,y;
+	t=1;
 	cin>>t;
-	//t=1;
+	
 	while(t--)
 	{
 		cin>>n;
