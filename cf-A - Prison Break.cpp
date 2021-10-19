@@ -35,7 +35,8 @@ int32_t main()
 	while(t--)
 	{
 		cin>>n>>m>>r>>c;
-		cout<<max(r-1,n-r)+max(c-1,m-c)<<endl;
+// 		cout<<max(r-1,n-r)+max(c-1,m-c)<<endl;
+		cout<<max(r-1,n-r)+max(c-1,m-c)<<"\n";
 		
 	}
 	return 0;
